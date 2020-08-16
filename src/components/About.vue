@@ -3,7 +3,7 @@
     <h1 class="text-center">ABOUT</h1>
     <v-row>
       <v-col cols="12" sm="12">
-        <v-card class="rounded-xl">
+        <v-card class="rounded-lg">
           <v-row>
             <v-col cols="12" sm="6">
               <v-card-text>

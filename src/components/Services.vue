@@ -4,7 +4,7 @@
     <v-row>
       <!-- Services -->
       <v-col cols="12" sm="12" md="4">
-        <v-card class="rounded-xl">
+        <v-card class="rounded-lg">
           <v-card-title class="justify-center">
             Web Development
           </v-card-title>
@@ -17,7 +17,7 @@
         </v-card>
       </v-col>
       <v-col cols="12" sm="12" md="4" class="text-center">
-        <v-card class="rounded-xl">
+        <v-card class="rounded-lg">
           <v-card-title class="justify-center">
             API Development
           </v-card-title>
@@ -30,7 +30,7 @@
         </v-card>
       </v-col>
       <v-col cols="12" sm="12" md="4" class="text-center">
-        <v-card class="rounded-xl">
+        <v-card class="rounded-lg">
           <v-card-title class="justify-center">
             Scrapping
           </v-card-title>

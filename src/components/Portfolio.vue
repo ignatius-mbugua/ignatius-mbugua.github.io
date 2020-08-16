@@ -3,7 +3,7 @@
     <h1 class="text-center">PORTFOLIO</h1>
     <v-row>
       <v-col cols="12" sm="12" md="4">
-        <v-card class="rounded-xl">
+        <v-card class="rounded-lg">
           <v-img
             class="white--text align-end"
             height="200px"
@@ -33,7 +33,7 @@
         </v-card>
       </v-col>
       <v-col cols="12" sm="12" md="4">
-        <v-card class="rounded-xl">
+        <v-card class="rounded-lg">
           <v-img
             class="white--text align-end"
             height="200px"
@@ -63,7 +63,7 @@
         </v-card>
       </v-col>
       <v-col cols="12" sm="12" md="4">
-        <v-card class="rounded-xl">
+        <v-card class="rounded-lg">
           <v-img
             class="white--text align-end"
             height="200px"
