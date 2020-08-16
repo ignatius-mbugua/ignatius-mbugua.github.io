@@ -8,10 +8,10 @@
     </v-btn>
 
     <v-btn href="#" text>
-      Projects
+      Services
     </v-btn>
     <v-btn href="#" text>
-      Contact Me
+      Portfolio
     </v-btn>
   </v-app-bar>
 </template>
