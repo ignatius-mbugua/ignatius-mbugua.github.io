@@ -5,6 +5,7 @@
       <!-- Services -->
       <v-col cols="12" sm="12" md="4">
         <v-card class="rounded-lg">
+          <v-icon x-large color="blue"> mdi-code-tags</v-icon>
           <v-card-title class="justify-center">
             Web Development
           </v-card-title>
@@ -16,8 +17,9 @@
           </v-card-text>
         </v-card>
       </v-col>
-      <v-col cols="12" sm="12" md="4" class="text-center">
+      <v-col cols="12" sm="12" md="4">
         <v-card class="rounded-lg">
+          <v-icon x-large color="blue"> mdi-code-json</v-icon>
           <v-card-title class="justify-center">
             API Development
           </v-card-title>
@@ -29,10 +31,11 @@
           </v-card-text>
         </v-card>
       </v-col>
-      <v-col cols="12" sm="12" md="4" class="text-center">
+      <v-col cols="12" sm="12" md="4">
         <v-card class="rounded-lg">
+          <v-icon x-large color="blue"> mdi-web</v-icon>
           <v-card-title class="justify-center">
-            Scrapping
+            Web Scrapping
           </v-card-title>
           <v-card-text>
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsa
