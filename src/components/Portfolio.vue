@@ -1,9 +1,9 @@
 <template>
   <section>
-    <h1 class="text-center">PORTFOLIO</h1>
+    <h1 class="text-center">PROJECTS</h1>
     <v-row>
       <v-col cols="12" sm="12" md="4" lg="3">
-        <v-card class="rounded-lg">
+        <v-card class="rounded-lg" height="450">
           <v-img
             class="white--text align-end"
             height="200px"
@@ -22,18 +22,22 @@
           </v-card-text>
 
           <v-card-actions>
-            <v-btn color="blue" text>
-              View
-            </v-btn>
-
-            <v-btn color="blue" text>
-              Link
+            <v-btn
+              block
+              rounded
+              color="blue"
+              dark
+              href="https://github.com/ignatius-mbugua/medical-drug-prescription-prediction"
+              target="_blank"
+            >
+              Project Link
+              <v-icon>mdi-open-in-new</v-icon>
             </v-btn>
           </v-card-actions>
         </v-card>
       </v-col>
       <v-col cols="12" sm="12" md="4" lg="3">
-        <v-card class="rounded-lg">
+        <v-card class="rounded-lg" height="450">
           <v-img
             class="white--text align-end"
             height="200px"
@@ -52,18 +56,22 @@
           </v-card-text>
 
           <v-card-actions>
-            <v-btn color="blue" text>
-              View
-            </v-btn>
-
-            <v-btn color="blue" text>
-              Link
+            <v-btn
+              block
+              rounded
+              color="blue"
+              dark
+              href="https://github.com/ignatius-mbugua/doctor-drug-prescription-system"
+              target="_blank"
+            >
+              Project Link
+              <v-icon>mdi-open-in-new</v-icon>
             </v-btn>
           </v-card-actions>
         </v-card>
       </v-col>
       <v-col cols="12" sm="12" md="4" lg="3">
-        <v-card class="rounded-lg">
+        <v-card class="rounded-lg" height="450">
           <v-img
             class="white--text align-end"
             height="200px"
@@ -83,18 +91,22 @@
           </v-card-text>
 
           <v-card-actions>
-            <v-btn color="blue" text>
-              View
-            </v-btn>
-
-            <v-btn color="blue" text>
-              Link
+            <v-btn
+              block
+              rounded
+              color="blue"
+              dark
+              href="https://github.com/ignatius-mbugua/course_advisory"
+              target="_blank"
+            >
+              Project Link
+              <v-icon>mdi-open-in-new</v-icon>
             </v-btn>
           </v-card-actions>
         </v-card>
       </v-col>
       <v-col cols="12" sm="12" md="4" lg="3">
-        <v-card class="rounded-lg">
+        <v-card class="rounded-lg" height="450">
           <v-img
             class="white--text align-end"
             height="200px"
@@ -114,12 +126,8 @@
           </v-card-text>
 
           <v-card-actions>
-            <v-btn color="blue" text>
-              View
-            </v-btn>
-
-            <v-btn color="blue" text>
-              Link
+            <v-btn block rounded color="blue" dark>
+              Project Link
             </v-btn>
           </v-card-actions>
         </v-card>
