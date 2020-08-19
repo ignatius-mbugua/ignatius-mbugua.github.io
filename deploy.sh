@@ -19,6 +19,6 @@ git commit -m "deploy"
 
 # deploy project
 echo "deploying project..."
-git push -f git@github.com:ignatius-mbugua/ignatius-mbugua.github.io.git gh-pages
+git push -f git@github.com:ignatius-mbugua/ignatius-mbugua.github.io.git master
 
 cd -
