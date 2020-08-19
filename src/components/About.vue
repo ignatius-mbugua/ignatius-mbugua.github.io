@@ -6,7 +6,11 @@
         <v-card class="rounded-lg" elevation="10">
           <v-row>
             <v-col cols="12" sm="6">
-              <v-img src="../assets/undraw_code_review.svg"></v-img>
+              <v-img
+                height="300px"
+                contain
+                src="../assets/undraw_code_review.svg"
+              ></v-img>
             </v-col>
             <v-col cols="12" sm="6">
               <v-card-title>

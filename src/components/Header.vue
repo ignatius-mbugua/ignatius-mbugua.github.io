@@ -13,7 +13,11 @@
         </div>
       </v-col>
       <v-col cols="12" sm="6">
-        <v-img src="../assets/undraw_dev_productivity.svg"></v-img>
+        <v-img
+          height="300px"
+          contain
+          src="../assets/undraw_dev_productivity.svg"
+        ></v-img>
       </v-col>
     </v-row>
   </section>
