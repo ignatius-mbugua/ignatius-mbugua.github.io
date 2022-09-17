@@ -7,7 +7,6 @@ set -e
 echo "building project..."
 npm run build
 
-# navigate to build output directory
 echo "adding dist folder to commit"
 git add dist && git commit -m "adding dist subtree"
 
