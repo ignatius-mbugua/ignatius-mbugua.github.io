@@ -1,8 +1,8 @@
 <template>
   <v-container>
     <Header />
-    <About />
     <Services />
+    <About />
     <Portfolio />
     <ScrollToTop />
   </v-container>

@@ -1,15 +1,11 @@
 <template>
-  <section id="header" class="my-3 py-10">
+  <section id="header" class="rounded-xl grey lighten-5 my-3 py-10">
     <v-row class="align-md-center">
       <v-col cols="12" sm="6">
         <div class="text-center">
-          <h1 class="display-2 font-weight-bold mb-3">
-            Ignatius Mbugua
-          </h1>
+          <h1 class="display-2 font-weight-bold mb-3">Ignatius Mbugua</h1>
 
-          <h2 class="subheading font-weight-regular">
-            Web Developer
-          </h2>
+          <h2 class="subheading font-weight-regular">Web Developer</h2>
         </div>
       </v-col>
       <v-col cols="12" sm="6">
