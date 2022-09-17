@@ -8,17 +8,9 @@ echo "building project..."
 npm run build
 
 # navigate to build output directory
-echo "changing directory..."
-cd dist
-
-# intialize and commit repository
-echo "initialize and commit project..."
-git init
-git add -A
-git commit -m "deploy"
+echo "adding dist folder to commit"
+git add dist && git commit -m "adding dist subtree"
 
 # deploy project
-echo "deploying project..."
-git push -f https://github.com:ignatius-mbugua/ignatius-mbugua.github.io.git gh-pages
-
-cd -
+echo "deploying subtree to gh-pages..."
+git subtree push --prefix dist origin gh-pages
