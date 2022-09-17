@@ -4,19 +4,7 @@
     <About />
     <Services />
     <Portfolio />
-    <v-btn
-      v-scroll="onScroll"
-      v-show="fab"
-      fab
-      dark
-      fixed
-      bottom
-      right
-      color="blue"
-      @click="toTop"
-    >
-      <v-icon>mdi-chevron-up</v-icon>
-    </v-btn>
+    <ScrollToTop />
   </v-container>
 </template>
 
@@ -25,6 +13,7 @@ import Header from "@/components/Header";
 import Services from "@/components/Services";
 import About from "@/components/About";
 import Portfolio from "@/components/Portfolio";
+import ScrollToTop from "@/components/ScrollToTop";
 
 export default {
   components: {
@@ -32,19 +21,7 @@ export default {
     Services,
     About,
     Portfolio,
-  },
-  data: () => ({
-    fab: false,
-  }),
-  methods: {
-    onScroll(e) {
-      if (typeof window === "undefined") return;
-      const top = window.pageYOffset || e.target.scrollTop || 0;
-      this.fab = top > 500;
-    },
-    toTop() {
-      this.$vuetify.goTo(0);
-    },
+    ScrollToTop,
   },
 };
 </script>
