@@ -4,44 +4,38 @@
     <v-row>
       <!-- Services -->
       <v-col cols="12" sm="12" md="4">
-        <v-card class="rounded-xl" outlined>
+        <v-card class="rounded-xl" height="100%" outlined>
+          <v-icon color="blue" size="100"> mdi-monitor-cellphone </v-icon>
+          <v-card-title class="justify-center">
+            Responsive Web Design
+          </v-card-title>
+          <v-card-text>
+            Making the visual look of websites look attractive to your visitors as well 
+            as make it responsive on all screens whether big or small
+          </v-card-text>
+        </v-card>
+      </v-col>
+      <v-col cols="12" sm="12" md="4">
+        <v-card class="rounded-xl" height="100%" outlined>
           <v-icon color="blue" size="100"> mdi-code-tags</v-icon>
           <v-card-title class="justify-center">
-            Web Development
+            Web Application Development
           </v-card-title>
           <v-card-text>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsa
-            excepturi ut dolorem itaque officia. Inventore, vel. Nobis
-            perspiciatis error vitae eveniet aliquam, animi quisquam repellendus
-            ullam, delectus consequuntur dolorum harum!
+            Development of interactive websites and web apps from ecommerce, web portals, marketplaces
+            single page applications as well as customize and add features to existing web apps
           </v-card-text>
         </v-card>
       </v-col>
       <v-col cols="12" sm="12" md="4">
-        <v-card class="rounded-xl" outlined>
-          <v-icon color="blue" size="100"> mdi-code-json</v-icon>
-          <v-card-title class="justify-center">
-            API Development
-          </v-card-title>
-          <v-card-text>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsa
-            excepturi ut dolorem itaque officia. Inventore, vel. Nobis
-            perspiciatis error vitae eveniet aliquam, animi quisquam repellendus
-            ullam, delectus consequuntur dolorum harum!
-          </v-card-text>
-        </v-card>
-      </v-col>
-      <v-col cols="12" sm="12" md="4">
-        <v-card class="rounded-xl" outlined>
+        <v-card class="rounded-xl" height="100%" outlined>
           <v-icon color="blue" size="100"> mdi-web</v-icon>
           <v-card-title class="justify-center">
             Web Scrapping
           </v-card-title>
           <v-card-text>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsa
-            excepturi ut dolorem itaque officia. Inventore, vel. Nobis
-            perspiciatis error vitae eveniet aliquam, animi quisquam repellendus
-            ullam, delectus consequuntur dolorum harum!
+            Fetching of data from APIs as well as scrap data from websites around the internet for your
+            custom use or analysis
           </v-card-text>
         </v-card>
       </v-col>
