@@ -1,6 +1,6 @@
 <template>
   <section id="portfolio" class="my-3 py-10">
-    <h1 class="text-center text-uppercase pb-5">Portfolio</h1>
+    <h1 class="primary--text text-center text-uppercase pb-5">Portfolio</h1>
     <v-row>
       <v-col cols="12" sm="12" md="4" lg="3">
         <v-card class="rounded-xl d-flex flex-column" height="100%" outlined>
@@ -8,6 +8,7 @@
             class="white--text align-end"
             height="200px"
             src="../assets/img/patient_medical_drug_prescription.jpg"
+            alt="Medical Drug Prescription Prediction image"
             gradient="to bottom, rgba(0,0,0,.1), rgba(0,0,0,.8)"
           >
             <v-card-title>Medical Drug Prescription Prediction</v-card-title>
@@ -42,6 +43,7 @@
             class="white--text align-end"
             height="200px"
             src="../assets/img/doctor_drug_prescription.jpg"
+            alt="Doctor Drug Prescription System image"
             gradient="to bottom, rgba(0,0,0,.1), rgba(0,0,0,.8)"
           >
             <v-card-title>Doctor Drug Prescription System</v-card-title>
@@ -76,6 +78,7 @@
             class="white--text align-end"
             height="200px"
             src="../assets/img/compressed_projects_course.png"
+            alt="Course Advisory image"
             gradient="to bottom, rgba(0,0,0,.1), rgba(0,0,0,.8)"
           >
             <v-card-title>Course Advisory</v-card-title>
@@ -111,6 +114,7 @@
             class="white--text align-end"
             height="200px"
             src="../assets/img/compressed_projects_nanotech.png"
+            alt="Nanotech Website image"
             gradient="to bottom, rgba(0,0,0,.1), rgba(0,0,0,.8)"
           >
             <v-card-title>Nanotech Website</v-card-title>

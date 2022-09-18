@@ -1,7 +1,7 @@
 <template>
   <v-container>
     <Header />
-    <Services />
+    <Skills />
     <About />
     <Portfolio />
     <ScrollToTop />
@@ -10,7 +10,7 @@
 
 <script>
 import Header from "@/components/Header";
-import Services from "@/components/Services";
+import Skills from "@/components/Skills";
 import About from "@/components/About";
 import Portfolio from "@/components/Portfolio";
 import ScrollToTop from "@/components/ScrollToTop";
@@ -18,7 +18,7 @@ import ScrollToTop from "@/components/ScrollToTop";
 export default {
   components: {
     Header,
-    Services,
+    Skills,
     About,
     Portfolio,
     ScrollToTop,

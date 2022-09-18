@@ -13,6 +13,7 @@
           height="300px"
           contain
           src="../assets/img/undraw_dev_productivity.svg"
+          alt="header image"
         ></v-img>
       </v-col>
     </v-row>
