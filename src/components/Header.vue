@@ -1,5 +1,5 @@
 <template>
-  <section id="header" class="rounded-xl grey lighten-5 my-3 py-10">
+  <section id="header" class="my-3 py-10">
     <v-row class="align-md-center">
       <v-col cols="12" sm="6">
         <div class="text-center">

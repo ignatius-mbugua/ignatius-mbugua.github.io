@@ -1,5 +1,5 @@
 <template>
-  <v-app-bar app color="blue" dark>
+  <v-app-bar app color="primary" dark>
     <v-toolbar-title id="top">Ignatius Mbugua</v-toolbar-title>
     <v-spacer></v-spacer>
 

@@ -7,7 +7,7 @@
     fixed
     bottom
     right
-    color="blue"
+    color="primary"
     @click="toTop"
   >
     <v-icon>mdi-chevron-up</v-icon>

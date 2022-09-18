@@ -5,7 +5,7 @@
       <!-- Services -->
       <v-col cols="12" sm="12" md="4">
         <v-card class="rounded-xl" height="100%" outlined>
-          <v-icon color="blue" size="100"> mdi-monitor-cellphone </v-icon>
+          <v-icon color="primary" size="100"> mdi-monitor-cellphone </v-icon>
           <v-card-title class="justify-center">
             Responsive Web Design
           </v-card-title>
@@ -17,7 +17,7 @@
       </v-col>
       <v-col cols="12" sm="12" md="4">
         <v-card class="rounded-xl" height="100%" outlined>
-          <v-icon color="blue" size="100"> mdi-code-tags</v-icon>
+          <v-icon color="primary" size="100"> mdi-code-tags</v-icon>
           <v-card-title class="justify-center">
             Web Application Development
           </v-card-title>
@@ -29,7 +29,7 @@
       </v-col>
       <v-col cols="12" sm="12" md="4">
         <v-card class="rounded-xl" height="100%" outlined>
-          <v-icon color="blue" size="100"> mdi-web</v-icon>
+          <v-icon color="primary" size="100"> mdi-web</v-icon>
           <v-card-title class="justify-center">
             Web Scrapping
           </v-card-title>

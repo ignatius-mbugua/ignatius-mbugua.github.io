@@ -25,7 +25,7 @@
             <v-btn
               block
               rounded
-              color="blue"
+              color="primary"
               dark
               href="https://github.com/ignatius-mbugua/medical-drug-prescription-prediction"
               target="_blank"
@@ -59,7 +59,7 @@
             <v-btn
               block
               rounded
-              color="blue"
+              color="primary"
               dark
               href="https://github.com/ignatius-mbugua/doctor-drug-prescription-system"
               target="_blank"
@@ -94,7 +94,7 @@
             <v-btn
               block
               rounded
-              color="blue"
+              color="primary"
               dark
               href="https://github.com/ignatius-mbugua/course_advisory"
               target="_blank"
@@ -126,7 +126,7 @@
           </v-card-text>
 
           <v-card-actions>
-            <v-btn block rounded color="blue" dark>
+            <v-btn block rounded color="primary" dark>
               Project Link
             </v-btn>
           </v-card-actions>
