@@ -27,19 +27,20 @@
               <v-card-text>
                 <p>
                   <v-chip class="ma-1">
-                    <v-icon left>mdi-language-html5</v-icon>HTML
+                    <v-icon left> {{ icons.mdiLanguageHtml5 }} </v-icon> HTML
                   </v-chip>
                   <v-chip class="ma-1">
-                    <v-icon left>mdi-language-css3</v-icon>CSS
+                    <v-icon left>{{ icons.mdiLanguageCss3 }} </v-icon> CSS
                   </v-chip>
                   <v-chip class="ma-1">
-                    <v-icon left>mdi-language-javascript </v-icon> Javascript
+                    <v-icon left> {{ icons.mdiLanguageJavascript }} </v-icon>
+                    Javascript
                   </v-chip>
                   <v-chip class="ma-1">
-                    <v-icon left>mdi-language-python</v-icon>Python
+                    <v-icon left> {{ icons.mdiLanguagePython }} </v-icon> Python
                   </v-chip>
                   <v-chip class="ma-1">
-                    <v-icon left>mdi-language-php</v-icon> PHP
+                    <v-icon left> {{ icons.mdiLanguagePhp }} </v-icon> PHP
                   </v-chip>
                 </p>
               </v-card-text>
@@ -47,13 +48,13 @@
               <v-card-text>
                 <p>
                   <v-chip class="ma-1">
-                    <v-icon left>mdi-laravel</v-icon>Laravel
+                    <v-icon left> {{ icons.mdiLaravel }}</v-icon> Laravel
                   </v-chip>
                   <v-chip class="ma-1">
-                    <v-icon left>mdi-code-tags</v-icon>Django
+                    <v-icon left> {{ icons.mdiCodeTags }} </v-icon> Django
                   </v-chip>
                   <v-chip class="ma-1">
-                    <v-icon left>mdi-vuejs</v-icon>Vuejs
+                    <v-icon left> {{ icons.mdiVuejs }} </v-icon> Vuejs
                   </v-chip>
                 </p>
               </v-card-text>
@@ -61,13 +62,13 @@
               <v-card-text>
                 <p>
                   <v-chip class="ma-1">
-                    <v-icon left>mdi-database</v-icon>MySQL
+                    <v-icon left> {{ icons.mdiDatabase }} </v-icon> MySQL
                   </v-chip>
                   <v-chip class="ma-1">
-                    <v-icon left>mdi-database</v-icon>MSSQL
+                    <v-icon left> {{ icons.mdiDatabase }} </v-icon> MSSQL
                   </v-chip>
                   <v-chip class="ma-1">
-                    <v-icon left>mdi-database</v-icon>SQLite
+                    <v-icon left> {{ icons.mdiDatabase }} </v-icon> SQLite
                   </v-chip>
                 </p>
               </v-card-text>
@@ -80,7 +81,32 @@
 </template>
 
 <script>
+import {
+  mdiLanguageHtml5,
+  mdiLanguageCss3,
+  mdiLanguageJavascript,
+  mdiLanguagePython,
+  mdiLanguagePhp,
+  mdiLaravel,
+  mdiCodeTags,
+  mdiVuejs,
+  mdiDatabase,
+} from "@mdi/js";
+
 export default {
   name: "About",
+  data: () => ({
+    icons: {
+      mdiLanguageHtml5,
+      mdiLanguageCss3,
+      mdiLanguageJavascript,
+      mdiLanguagePython,
+      mdiLanguagePhp,
+      mdiLaravel,
+      mdiCodeTags,
+      mdiVuejs,
+      mdiDatabase,
+    },
+  }),
 };
 </script>

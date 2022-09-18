@@ -10,15 +10,18 @@
     color="primary"
     @click="toTop"
   >
-    <v-icon>mdi-chevron-up</v-icon>
+    <v-icon> {{mdiChevronUp}} </v-icon>
   </v-btn>
 </template>
 
 <script>
+import { mdiChevronUp } from "@mdi/js";
+
 export default {
   name: "ScrollToTop",
 
   data: () => ({
+    mdiChevronUp,
     fab: false,
   }),
   methods: {

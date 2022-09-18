@@ -32,7 +32,7 @@
               target="_blank"
             >
               Project Link
-              <v-icon right>mdi-open-in-new</v-icon>
+              <v-icon right> {{ icons.mdiOpenInNew }} </v-icon>
             </v-btn>
           </v-card-actions>
         </v-card>
@@ -67,7 +67,7 @@
               target="_blank"
             >
               Project Link
-              <v-icon right>mdi-open-in-new</v-icon>
+              <v-icon right> {{ icons.mdiOpenInNew }} </v-icon>
             </v-btn>
           </v-card-actions>
         </v-card>
@@ -103,7 +103,7 @@
               target="_blank"
             >
               Project Link
-              <v-icon right>mdi-open-in-new</v-icon>
+              <v-icon right> {{ icons.mdiOpenInNew }} </v-icon>
             </v-btn>
           </v-card-actions>
         </v-card>
@@ -130,9 +130,7 @@
           </v-card-text>
 
           <v-card-actions>
-            <v-btn block rounded color="primary" dark>
-              Project Link
-            </v-btn>
+            <v-btn block rounded color="primary" dark> Project Link </v-btn>
           </v-card-actions>
         </v-card>
       </v-col>
@@ -141,7 +139,13 @@
 </template>
 
 <script>
+import { mdiOpenInNew } from "@mdi/js";
 export default {
   name: "Portfolio",
+  data: () => ({
+    icons: {
+      mdiOpenInNew,
+    },
+  }),
 };
 </script>

@@ -13,33 +13,32 @@
         Portfolio
       </v-btn>
     </div>
-
-    <!-- Dark mode switch -->
-
-    <v-switch
-      v-model="darkmode"
-      color="white"
-      class="ml-2 mt-5"
-      prepend-icon="mdi-white-balance-sunny"
-      append-icon="mdi-moon-waning-crescent"
-    ></v-switch>
+    <!-- Light and Dark theme -->
+    <v-btn v-if="darkmode" icon @click="toggleTheme">
+      <v-icon>{{ icons.mdiWhiteBalanceSunny }}</v-icon>
+    </v-btn>
+    <v-btn v-else icon @click="toggleTheme">
+      <v-icon>{{ icons.mdiMoonWaningCrescent }}</v-icon>
+    </v-btn>
   </v-app-bar>
 </template>
 
 <script>
+import { mdiWhiteBalanceSunny, mdiMoonWaningCrescent } from "@mdi/js";
+
 export default {
   name: "AppBar",
   data: () => ({
+    icons: {
+      mdiWhiteBalanceSunny,
+      mdiMoonWaningCrescent,
+    },
     darkmode: false,
   }),
   methods: {
-    toggleTheme(val) {
-      this.$vuetify.theme.dark = val;
-    },
-  },
-  watch: {
-    darkmode: function (val) {
-      this.toggleTheme(val);
+    toggleTheme() {
+      this.darkmode = !this.darkmode;
+      this.$vuetify.theme.dark = this.darkmode;
     },
   },
 };
