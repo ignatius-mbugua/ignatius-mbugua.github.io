@@ -14,10 +14,10 @@
       </v-btn>
     </div>
     <!-- Light and Dark theme -->
-    <v-btn v-if="darkmode" icon @click="toggleTheme">
+    <v-btn v-if="darkmode" icon @click="toggleTheme" aria-label="light theme">
       <v-icon>{{ icons.mdiWhiteBalanceSunny }}</v-icon>
     </v-btn>
-    <v-btn v-else icon @click="toggleTheme">
+    <v-btn v-else icon @click="toggleTheme" aria-label="dark theme">
       <v-icon>{{ icons.mdiMoonWaningCrescent }}</v-icon>
     </v-btn>
   </v-app-bar>
