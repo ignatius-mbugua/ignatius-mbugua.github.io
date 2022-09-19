@@ -2,7 +2,7 @@
   <section id="portfolio" class="my-3 py-10">
     <h1 class="primary--text text-center text-uppercase pb-5">Portfolio</h1>
     <v-row>
-      <v-col cols="12" sm="12" md="4" lg="3">
+      <v-col cols="12" sm="6" md="4" lg="3">
         <v-card class="rounded-xl d-flex flex-column" height="100%" outlined>
           <v-img
             class="white--text align-end"
@@ -37,7 +37,7 @@
           </v-card-actions>
         </v-card>
       </v-col>
-      <v-col cols="12" sm="12" md="4" lg="3">
+      <v-col cols="12" sm="6" md="4" lg="3">
         <v-card class="rounded-xl d-flex flex-column" height="100%" outlined>
           <v-img
             class="white--text align-end"
@@ -72,7 +72,7 @@
           </v-card-actions>
         </v-card>
       </v-col>
-      <v-col cols="12" sm="12" md="4" lg="3">
+      <v-col cols="12" sm="6" md="4" lg="3">
         <v-card class="rounded-xl" height="100%" outlined>
           <v-img
             class="white--text align-end"
@@ -108,7 +108,7 @@
           </v-card-actions>
         </v-card>
       </v-col>
-      <v-col cols="12" sm="12" md="4" lg="3">
+      <v-col cols="12" sm="6" md="4" lg="3">
         <v-card class="rounded-xl" height="100%" outlined>
           <v-img
             class="white--text align-end"

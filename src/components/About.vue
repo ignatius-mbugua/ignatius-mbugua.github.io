@@ -4,7 +4,7 @@
     <v-row>
       <v-col cols="12" sm="12">
         <v-card class="rounded-xl" outlined>
-          <v-row>
+          <v-row align="center">
             <v-col cols="12" sm="6">
               <v-img
                 height="300px"

@@ -3,7 +3,7 @@
     <h1 class="primary--text text-uppercase pb-5">Skills</h1>
     <v-row>
       <!-- Services -->
-      <v-col cols="12" sm="12" md="4">
+      <v-col cols="12" sm="6" md="4">
         <v-card class="rounded-xl" height="100%" outlined>
           <v-icon color="primary" size="100">
             {{ icons.mdiMonitorCellphone }}
@@ -17,7 +17,7 @@
           </v-card-text>
         </v-card>
       </v-col>
-      <v-col cols="12" sm="12" md="4">
+      <v-col cols="12" sm="6" md="4">
         <v-card class="rounded-xl" height="100%" outlined>
           <v-icon color="primary" size="100"> {{ icons.mdiCodeTags }}</v-icon>
           <v-card-title class="justify-center">
@@ -30,7 +30,7 @@
           </v-card-text>
         </v-card>
       </v-col>
-      <v-col cols="12" sm="12" md="4">
+      <v-col cols="12" sm="6" md="4">
         <v-card class="rounded-xl" height="100%" outlined>
           <v-icon color="primary" size="100"> {{ icons.mdiWeb }} </v-icon>
           <v-card-title class="justify-center"> Web Scrapping </v-card-title>
